@@ -43,3 +43,20 @@ Sun 11 Sep 2022 09:51:45 PM UTC:
  tests:  9|2
 total_score: 50/70
 fb85f48
+Sun 11 Sep 2022 10:01:15 PM UTC: 
+ hashmap.c | 15 +++++++++++++--
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+hashmap.c: In function ‘searchMap’:
+hashmap.c:101:48: error: expected statement before ‘)’ token
+  101 |     if(is_equal(key,map->buckets[pos]->key)!=0)){
+      |                                                ^
+hashmap.c:101:5: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+  101 |     if(is_equal(key,map->buckets[pos]->key)!=0)){
+      |     ^~
+hashmap.c:101:49: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  101 |     if(is_equal(key,map->buckets[pos]->key)!=0)){
+      |                                                 ^
+cc1: all warnings being treated as errors
+Compilation failed
+196f1e5
