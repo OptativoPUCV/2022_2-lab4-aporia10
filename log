@@ -37,3 +37,9 @@ hashmap.c:90:12: error: expected ‘;’ before ‘:’ token
       |            ;
 Compilation failed
 5753426
+Sun 11 Sep 2022 09:51:45 PM UTC: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|2
+total_score: 50/70
+fb85f48
