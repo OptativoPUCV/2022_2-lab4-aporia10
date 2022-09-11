@@ -26,3 +26,14 @@ Sun 11 Sep 2022 09:45:33 PM UTC:
  tests:  6|3
 total_score: 40/70
 889079b
+Sun 11 Sep 2022 09:51:39 PM UTC: 
+ hashmap.c | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+In file included from test.c:4:
+hashmap.c: In function ‘eraseMap’:
+hashmap.c:90:12: error: expected ‘;’ before ‘:’ token
+   90 |       pos=0:
+      |            ^
+      |            ;
+Compilation failed
+5753426
